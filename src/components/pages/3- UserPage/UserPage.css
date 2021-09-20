@@ -1,0 +1,10 @@
+.all-exercise-container{
+
+    max-width: 908px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}

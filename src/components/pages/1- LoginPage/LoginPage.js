@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 
 import './Login.css';
 
+
+
 const LoginPage = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -16,8 +18,10 @@ const LoginPage = () => {
     const API_URL = 'http://localhost:8081/users';
     const axios = require( 'axios' ).default;
 
+
     async function onLoginAttempt( data ) {
 
+    // username = data.username
 
         try {
             //Make API CALL
@@ -39,7 +43,6 @@ const LoginPage = () => {
             }
 
             if ( pwResult === pwInput ) {
-                let name = data.username
                 if (result.data.role === "admin"){
                     window.location.href = "/admin"
                 } else {
@@ -105,6 +108,7 @@ const LoginPage = () => {
                 <input id="login" type="submit" onClick={onNoSubmitClick} value="LOGIN"/>
 
             </form>
+
         </>
     );
 };

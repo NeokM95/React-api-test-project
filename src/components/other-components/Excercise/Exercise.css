@@ -5,6 +5,26 @@
 
     border-radius: 5px;
 
-    background-color: rebeccapurple;
+    margin: 1rem;
 
+    background-color: rebeccapurple;
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.ex-img{
+    width: 60%;
+}
+
+.ex-checkbox{
+    position: absolute;
+
+    top: 3px;
+    right: 3px;
 }
