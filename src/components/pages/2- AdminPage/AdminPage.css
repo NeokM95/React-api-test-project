@@ -1,0 +1,99 @@
+.upper-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 15px;
+}
+
+.open-close-users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+#close-users{
+    color: red;
+    font-weight: bold;
+
+    cursor: pointer;
+    margin-left: 23px;
+
+
+}
+
+form{
+    width: 200px;
+}
+
+
+.home {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.user-list-item{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 190px;
+
+}
+
+.user-data{
+    display: flex;
+    justify-content: space-between;
+
+    width: 150px;
+    border: 2px solid black;
+
+    margin: 5px;
+    padding: 2px 4px;
+}
+
+.delete-btn{
+    padding-right: 8px;
+
+    font-weight: bold;
+
+    color: red;
+
+    cursor: pointer;
+}
+
+ul{
+    height:100px;
+    width:200px;
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+ul{
+    overflow:hidden;
+    overflow-y:scroll;
+}
+
+.hide{
+    display: none;
+}
+
+.error-message-admin{
+    margin-top: 5px;
+    color: red;
+}
+
